@@ -177,10 +177,3 @@ themes/default-bootstrap/modules/*/mails/*
 
 
 # End of https://www.toptal.com/developers/gitignore/api/prestashop
-
-# Docker files
-
-docker-compose.yml
-
-
-# End of docker files
