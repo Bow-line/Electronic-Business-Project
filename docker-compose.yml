@@ -1,5 +1,7 @@
 version: '3.9'
 
+# a small comment to test git
+
 services:
     mysql:
         image: mysql:8
