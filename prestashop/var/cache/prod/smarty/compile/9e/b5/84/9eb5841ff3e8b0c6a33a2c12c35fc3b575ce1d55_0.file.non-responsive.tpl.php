@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-02 23:31:34
+/* Smarty version 3.1.43, created on 2022-12-09 19:37:59
   from '/var/www/html/admindoll/themes/new-theme/template/components/layout/non-responsive.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_638a7cc63d08f5_50152888',
+  'unifunc' => 'content_639380877863c8_93228468',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '9eb5841ff3e8b0c6a33a2c12c35fc3b575ce1d55' => 
     array (
       0 => '/var/www/html/admindoll/themes/new-theme/template/components/layout/non-responsive.tpl',
-      1 => 1670002873,
+      1 => 1670608391,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_638a7cc63d08f5_50152888 (Smarty_Internal_Template $_smarty_tpl) {
+function content_639380877863c8_93228468 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="non-responsive" class="js-non-responsive">
   <h1><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Oh no!'),$_smarty_tpl ) );?>
 </h1>
