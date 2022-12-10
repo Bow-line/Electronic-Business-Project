@@ -207,4 +207,9 @@
   207 => 'PrestaShop\\Module\\Ps_metrics\\Controller\\Admin\\MetricsOauthController',
   208 => 'PrestaShop\\Module\\Ps_metrics\\Controller\\Admin\\MetricsResolverController',
   209 => 'PaypalAddons\\classes\\Form\\Controller\\AdminPayPalInstallment\\FormInstallment',
+  210 => 'PrestaShop\\Module\\PsAccounts\\Controller\\AbstractRestChildController',
+  211 => 'PrestaShop\\Module\\PsAccounts\\Controller\\AbstractRestController',
+  212 => 'PrestaShop\\Module\\PsAccounts\\Controller\\AbstractShopRestController',
+  213 => 'PrestaShop\\Module\\PsAccounts\\Controller\\RestControllerInterface',
+  214 => 'PrestaShop\\Module\\PsEventbus\\Controller\\AbstractApiController',
 );

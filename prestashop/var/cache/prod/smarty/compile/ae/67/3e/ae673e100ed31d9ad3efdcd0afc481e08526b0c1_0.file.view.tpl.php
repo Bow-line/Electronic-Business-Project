@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-10 15:01:39
+/* Smarty version 3.1.43, created on 2022-12-10 15:32:21
   from '/var/www/html/admindoll/themes/default/template/controllers/dashboard/helpers/view/view.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63949143e308e5_29556172',
+  'unifunc' => 'content_63949875eadfd9_19440932',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'ae673e100ed31d9ad3efdcd0afc481e08526b0c1' => 
     array (
       0 => '/var/www/html/admindoll/themes/default/template/controllers/dashboard/helpers/view/view.tpl',
-      1 => 1670679450,
+      1 => 1670682605,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63949143e308e5_29556172 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63949875eadfd9_19440932 (Smarty_Internal_Template $_smarty_tpl) {
 echo '<script'; ?>
 >
 	var dashboard_ajax_url = '<?php echo $_smarty_tpl->tpl_vars['link']->value->getAdminLink('AdminDashboard');?>
