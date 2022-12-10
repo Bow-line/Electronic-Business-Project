@@ -1,30 +1,30 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-10 14:59:05
+/* Smarty version 3.1.43, created on 2022-12-10 16:17:29
   from 'module:pslinklistviewstemplatesh' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_639490a95ea5b1_67703702',
+  'unifunc' => 'content_6394a309de3802_05979021',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '906548e89c8c6025457ddaeffb1980a0c743b872' => 
     array (
       0 => 'module:pslinklistviewstemplatesh',
-      1 => 1670679452,
+      1 => 1670682609,
       2 => 'module',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_639490a95ea5b1_67703702 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6394a309de3802_05979021 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, array (
   'renderLogo' => 
   array (
     'compiled_filepath' => '/var/www/html/var/cache/prod/smarty/compile/classiclayouts_layout_full_width_tpl/d2/2d/85/d22d851f6d7c12eb35c1c34c8e84baa801a8cea2_2.file.helpers.tpl.php',
     'uid' => 'd22d851f6d7c12eb35c1c34c8e84baa801a8cea2',
-    'call_name' => 'smarty_template_function_renderLogo_87017941963948e8253d173_49374608',
+    'call_name' => 'smarty_template_function_renderLogo_116695149263949941c9f959_85442359',
   ),
 ));
 ?><div class="col-md-6 links">
@@ -133,6 +133,16 @@ $_smarty_tpl->smarty->ext->_tplFunction->registerTplFunctions($_smarty_tpl, arra
                 title="Zabezpieczenie płatności przy zakupach na naszej stronie"
                             >
               Zabezpieczenie płatności
+            </a>
+          </li>
+                  <li>
+            <a
+                id="link-cms-page-6-2"
+                class="cms-page-link"
+                href="http://localhost:8080/index.php?id_cms=6&amp;controller=cms&amp;id_lang=2"
+                title="Warunki dokonywania zwrotów"
+                            >
+              Zwroty
             </a>
           </li>
                   <li>
