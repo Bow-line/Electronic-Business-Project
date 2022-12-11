@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-10 15:35:45
+/* Smarty version 3.1.43, created on 2022-12-11 21:22:19
   from '/var/www/html/modules/amazonpay/views/templates/hook/_partials/button.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63949941b2f078_63654354',
+  'unifunc' => 'content_63963bfb24e0f7_97340862',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '2a0bfbc63d2857503d91185fea9bd380435bd1d2' => 
     array (
       0 => '/var/www/html/modules/amazonpay/views/templates/hook/_partials/button.tpl',
-      1 => 1670682607,
+      1 => 1670679450,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63949941b2f078_63654354 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63963bfb24e0f7_97340862 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div
         id="<?php if ((isset($_smarty_tpl->tpl_vars['AmazonPayButtonID']->value))) {

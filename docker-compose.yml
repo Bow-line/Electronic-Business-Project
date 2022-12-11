@@ -1,10 +1,9 @@
 version: '3.9'
 
-# a small comment to test git
-
 services:
     mysql:
         image: mysql:8
+        restart: always
         container_name: prestashop-db
         command: --default-authentication-plugin=mysql_native_password
         environment:
@@ -13,19 +12,31 @@ services:
         ports:
             - 3306:3306
         volumes:
-            - ./db:/var/lib/mysql
+            - ./db:/docker-entrypoint-initdb.d
         networks:
             - prestashop
         
     prestashop:
-        image: prestashop/prestashop:1.7
         container_name: prestashop
+        restart: always
+        build:
+            context: .
+            dockerfile: Dockerfile
         environment:
             DB_SERVER: mysql
+            PS_INSTALL_AUTO: 0
+            PS_DOMAIN: localhost:80
+            PS_FOLDER_ADMIN: admindoll
+            ALLOW_OVERRIDE: 1
         ports:
-            - 8080:80
+            - 80:80 
+            - 443:443
         volumes:
           - ./prestashop:/var/www/html
+          - ./prestashop/admindoll:/var/www/html/admindoll
+          - ./prestashop/modules:/var/www/html/modules
+          - ./prestashop/themes:/var/www/html/themes
+          - ./prestashop/override:/var/www/html/override
         networks:
             - prestashop
 

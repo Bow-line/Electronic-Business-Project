@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-10 15:32:22
+/* Smarty version 3.1.43, created on 2022-12-11 21:31:12
   from '/var/www/html/admindoll/themes/default/template/search_form.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_6394987605ba88_82451613',
+  'unifunc' => 'content_63963e10beddd0_91635957',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a826d4994f461f119bda119fea1ed42991a01c07' => 
     array (
       0 => '/var/www/html/admindoll/themes/default/template/search_form.tpl',
-      1 => 1670682605,
+      1 => 1670679450,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6394987605ba88_82451613 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63963e10beddd0_91635957 (Smarty_Internal_Template $_smarty_tpl) {
 ?><form id="header_search" class="component bo_search_form" method="post" action="<?php echo $_smarty_tpl->tpl_vars['baseAdminUrl']->value;?>
 index.php?controller=AdminSearch&amp;token=<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['getAdminToken'][0], array( array('tab'=>'AdminSearch'),$_smarty_tpl ) );?>
 " role="search">

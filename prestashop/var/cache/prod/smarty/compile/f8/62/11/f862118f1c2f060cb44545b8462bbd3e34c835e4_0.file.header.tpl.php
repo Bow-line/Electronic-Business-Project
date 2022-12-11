@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-10 16:51:30
+/* Smarty version 3.1.43, created on 2022-12-11 21:31:04
   from '/var/www/html/admindoll/themes/default/template/controllers/login/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_6394ab025bb2c0_34900773',
+  'unifunc' => 'content_63963e087dd358_21171079',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f862118f1c2f060cb44545b8462bbd3e34c835e4' => 
     array (
       0 => '/var/www/html/admindoll/themes/default/template/controllers/login/header.tpl',
-      1 => 1670687275,
+      1 => 1670679450,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6394ab025bb2c0_34900773 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63963e087dd358_21171079 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7 lt-ie6"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8 ie7"> <![endif]-->

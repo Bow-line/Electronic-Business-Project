@@ -1,24 +1,24 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-11 16:54:43
+/* Smarty version 3.1.43, created on 2022-12-11 21:22:19
   from 'module:psimagesliderviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_6395fd43e1c039_30651846',
+  'unifunc' => 'content_63963bfb6f76d9_60634733',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6c2108a17c7103b6e203f4f0621d4645b56b0114' => 
     array (
       0 => 'module:psimagesliderviewstemplat',
-      1 => 1670682609,
+      1 => 1670679452,
       2 => 'module',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_6395fd43e1c039_30651846 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63963bfb6f76d9_60634733 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover" data-touch="true">
     <ol class="carousel-indicators">
@@ -30,7 +30,7 @@ function content_6395fd43e1c039_30651846 (Smarty_Internal_Template $_smarty_tpl)
               <li class="carousel-item active" role="option" aria-hidden="false">
           <a href="http://localhost:8080/index.php?id_category=23&amp;controller=category&amp;id_lang=2">
             <figure>
-              <img src="http://localhost:8080/modules/ps_imageslider/images/1a8267cc18d81d3095fe8402ce25f70c16143900_8b0b84c697990f28292dfc1789a009d7.jpg" alt="sample-1" loading="lazy" width="1110" height="340">
+              <img src="http://localhost/modules/ps_imageslider/images/1a8267cc18d81d3095fe8402ce25f70c16143900_8b0b84c697990f28292dfc1789a009d7.jpg" alt="sample-1" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
                   <h2 class="display-1 text-uppercase">Akcesoria dla lalek</h2>
                   <div class="caption-description"><h3><span style="color:#ffffff;">Dodatki dla Twojej lalki</span></h3>
@@ -44,7 +44,7 @@ function content_6395fd43e1c039_30651846 (Smarty_Internal_Template $_smarty_tpl)
               <li class="carousel-item " role="option" aria-hidden="true">
           <a href="http://localhost:8080/index.php?id_category=24&amp;controller=category&amp;id_lang=2">
             <figure>
-              <img src="http://localhost:8080/modules/ps_imageslider/images/3d9c604b23230b9e70ad8ea79081adbb62677a15_barbieittakestwosdp_background_na_01_en-1280.jpg" alt="sample-2" loading="lazy" width="1110" height="340">
+              <img src="http://localhost/modules/ps_imageslider/images/3d9c604b23230b9e70ad8ea79081adbb62677a15_barbieittakestwosdp_background_na_01_en-1280.jpg" alt="sample-2" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
                   <h2 class="display-1 text-uppercase">Księżniczki i wróżki</h2>
                   <div class="caption-description"><p class="MsoNormal" style="line-height:normal;"><span style="color:#ffffff;"><b><span style="font-size:13.5pt;font-family:Verdana, sans-serif;">Lubisz księżniczki i wróżki?</span></b></span></p>
@@ -58,7 +58,7 @@ function content_6395fd43e1c039_30651846 (Smarty_Internal_Template $_smarty_tpl)
               <li class="carousel-item " role="option" aria-hidden="true">
           <a href="http://localhost:8080/index.php?id_category=17&amp;controller=category&amp;id_lang=2">
             <figure>
-              <img src="http://localhost:8080/modules/ps_imageslider/images/742183a3ac40aeab63e6cdce0b0ad5e789e1cf70_maxresdefault (1).jpg" alt="sample-3" loading="lazy" width="1110" height="340">
+              <img src="http://localhost/modules/ps_imageslider/images/742183a3ac40aeab63e6cdce0b0ad5e789e1cf70_maxresdefault (1).jpg" alt="sample-3" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
                   <h2 class="display-1 text-uppercase">Zwierzaki i minilalki</h2>
                   <div class="caption-description"><h3><span style="font-family:Verdana, sans-serif;color:#ffffff;">Marzysz o zwierzaku dla swojej lalki?</span></h3>
