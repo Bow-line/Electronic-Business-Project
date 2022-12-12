@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-11 21:35:39
+/* Smarty version 3.1.43, created on 2022-12-12 16:59:17
   from 'module:psimagesliderviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63963f1b3b32a0_43341276',
+  'unifunc' => 'content_63974fd5d72a25_12964433',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -18,7 +18,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_63963f1b3b32a0_43341276 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63974fd5d72a25_12964433 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover" data-touch="true">
     <ol class="carousel-indicators">
@@ -28,7 +28,7 @@ function content_63963f1b3b32a0_43341276 (Smarty_Internal_Template $_smarty_tpl)
           </ol>
     <ul class="carousel-inner" role="listbox" aria-label="Pokaz slajdów">
               <li class="carousel-item active" role="option" aria-hidden="false">
-          <a href="http://localhost:8080/index.php?id_category=23&amp;controller=category&amp;id_lang=2">
+          <a href="https://localhost/index.php?id_category=23&amp;controller=category">
             <figure>
               <img src="https://localhost/modules/ps_imageslider/images/1a8267cc18d81d3095fe8402ce25f70c16143900_8b0b84c697990f28292dfc1789a009d7.jpg" alt="sample-1" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
@@ -42,7 +42,7 @@ function content_63963f1b3b32a0_43341276 (Smarty_Internal_Template $_smarty_tpl)
           </a>
         </li>
               <li class="carousel-item " role="option" aria-hidden="true">
-          <a href="http://localhost:8080/index.php?id_category=24&amp;controller=category&amp;id_lang=2">
+          <a href="https://localhost/index.php?id_category=24&amp;controller=category">
             <figure>
               <img src="https://localhost/modules/ps_imageslider/images/3d9c604b23230b9e70ad8ea79081adbb62677a15_barbieittakestwosdp_background_na_01_en-1280.jpg" alt="sample-2" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
@@ -56,7 +56,7 @@ function content_63963f1b3b32a0_43341276 (Smarty_Internal_Template $_smarty_tpl)
           </a>
         </li>
               <li class="carousel-item " role="option" aria-hidden="true">
-          <a href="http://localhost:8080/index.php?id_category=17&amp;controller=category&amp;id_lang=2">
+          <a href="https://localhost/index.php?id_category=17&amp;controller=category">
             <figure>
               <img src="https://localhost/modules/ps_imageslider/images/742183a3ac40aeab63e6cdce0b0ad5e789e1cf70_maxresdefault (1).jpg" alt="sample-3" loading="lazy" width="1110" height="340">
                               <figcaption class="caption">
