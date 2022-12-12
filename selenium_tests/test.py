@@ -2,6 +2,7 @@ import random
 import string
 from time import sleep
 from selenium import webdriver
+from selenium.common import NoSuchElementException
 from selenium.webdriver.common.by import By
 
 
@@ -9,11 +10,13 @@ def get_random_string(letters):
     ret = ''.join(random.sample(string.ascii_lowercase, letters))
     return ret
 
-
 if __name__ == "__main__":
     driver = webdriver.Edge()
     driver.maximize_window()
     driver.get("http://localhost:80")
+    driver.find_element(By.ID, "details-button").click()
+    driver.find_element(By.ID, "proceed-link").click()
+    sleep(1)
 
     # stwórz konto
     driver.find_element(By.CLASS_NAME, "user-info").click()
@@ -40,9 +43,9 @@ if __name__ == "__main__":
         for _ in range(random.randint(0, 3)):
             driver.find_element(By.CLASS_NAME, "bootstrap-touchspin-up").click()
         driver.find_element(By.CLASS_NAME, "add-to-cart").click()
-        sleep(1)
+        sleep(2)
         driver.find_element(By.ID, 'blockcart-modal').click()
-        sleep(1)
+        sleep(2)
         driver.find_element(By.ID, 'category-3').click()
         driver.find_element(By.LINK_TEXT, 'Lalki celebrytki').click()
 
@@ -57,9 +60,9 @@ if __name__ == "__main__":
         for _ in range(random.randint(0, 3)):
             driver.find_element(By.CLASS_NAME, "bootstrap-touchspin-up").click()
         driver.find_element(By.CLASS_NAME, "add-to-cart").click()
-        sleep(1)
+        sleep(2)
         driver.find_element(By.ID, 'blockcart-modal').click()
-        sleep(1)
+        sleep(2)
         driver.find_element(By.ID, 'category-3').click()
         driver.find_element(By.LINK_TEXT, 'Mini lalki i zwierzaki').click()
 
