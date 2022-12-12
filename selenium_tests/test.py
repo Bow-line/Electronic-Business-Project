@@ -13,7 +13,7 @@ def get_random_string(letters):
 if __name__ == "__main__":
     driver = webdriver.Edge()
     driver.maximize_window()
-    driver.get("http://localhost:8080")
+    driver.get("http://localhost:80")
 
     # stwórz konto
     driver.find_element(By.CLASS_NAME, "user-info").click()
