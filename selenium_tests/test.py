@@ -38,6 +38,7 @@ if __name__ == "__main__":
         products = driver.find_elements(By.CLASS_NAME, "product")
         products[product].click()
         for _ in range(random.randint(0, 3)):
+            sleep(2)
             driver.find_element(By.CLASS_NAME, "bootstrap-touchspin-up").click()
         driver.find_element(By.CLASS_NAME, "add-to-cart").click()
         sleep(2)
