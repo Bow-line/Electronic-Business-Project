@@ -1,24 +1,24 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-12 16:59:17
+/* Smarty version 3.1.43, created on 2023-01-15 22:20:42
   from 'module:psimagesliderviewstemplat' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63974fd5d72a25_12964433',
+  'unifunc' => 'content_63c46e2a53e1c8_65038468',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6c2108a17c7103b6e203f4f0621d4645b56b0114' => 
     array (
       0 => 'module:psimagesliderviewstemplat',
-      1 => 1670679452,
+      1 => 1673702863,
       2 => 'module',
     ),
   ),
   'cache_lifetime' => 31536000,
 ),true)) {
-function content_63974fd5d72a25_12964433 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c46e2a53e1c8_65038468 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
   <div id="carousel" data-ride="carousel" class="carousel slide" data-interval="5000" data-wrap="true" data-pause="hover" data-touch="true">
     <ol class="carousel-indicators">
