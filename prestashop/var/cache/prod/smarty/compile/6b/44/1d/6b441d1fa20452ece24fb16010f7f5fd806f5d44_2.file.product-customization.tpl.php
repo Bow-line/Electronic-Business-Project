@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2022-12-12 15:35:54
+/* Smarty version 3.1.43, created on 2023-01-15 22:20:56
   from '/var/www/html/themes/classic/templates/catalog/_partials/product-customization.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63973c4a884d62_51229434',
+  'unifunc' => 'content_63c46e387f7d62_66071805',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '6b441d1fa20452ece24fb16010f7f5fd806f5d44' => 
     array (
       0 => '/var/www/html/themes/classic/templates/catalog/_partials/product-customization.tpl',
-      1 => 1670855168,
+      1 => 1673702863,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63973c4a884d62_51229434 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c46e387f7d62_66071805 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -33,7 +33,7 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 
 
       <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_101681289063973c4a871383_59927855', 'product_customization_form');
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_156175841463c46e387e9a02_79052585', 'product_customization_form');
 ?>
 
 
@@ -42,12 +42,12 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_101681289063973c4a
 </section>
 <?php }
 /* {block 'product_customization_form'} */
-class Block_101681289063973c4a871383_59927855 extends Smarty_Internal_Block
+class Block_156175841463c46e387e9a02_79052585 extends Smarty_Internal_Block
 {
 public $subBlocks = array (
   'product_customization_form' => 
   array (
-    0 => 'Block_101681289063973c4a871383_59927855',
+    0 => 'Block_156175841463c46e387e9a02_79052585',
   ),
 );
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
