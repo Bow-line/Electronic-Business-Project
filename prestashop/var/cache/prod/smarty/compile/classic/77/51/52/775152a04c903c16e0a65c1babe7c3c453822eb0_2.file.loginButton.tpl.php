@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.43, created on 2023-01-15 22:20:42
+/* Smarty version 3.1.43, created on 2023-01-16 14:48:43
   from '/var/www/html/modules/amazonpay/views/templates/hook/loginButton.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63c46e2a428694_72122923',
+  'unifunc' => 'content_63c555bb1b3901_26448151',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./_partials/button.tpl' => 1,
   ),
 ),false)) {
-function content_63c46e2a428694_72122923 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c555bb1b3901_26448151 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="amzbuttoncontainer">
     <h3 class="page-subheading">
