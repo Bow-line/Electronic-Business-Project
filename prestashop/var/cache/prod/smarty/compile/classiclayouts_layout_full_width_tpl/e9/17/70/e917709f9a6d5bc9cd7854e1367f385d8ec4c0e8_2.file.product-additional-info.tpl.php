@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.43, created on 2023-01-15 22:20:52
+/* Smarty version 3.1.43, created on 2023-01-16 14:48:50
   from '/var/www/html/themes/classic/templates/catalog/_partials/product-additional-info.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63c46e34da0f93_21485367',
+  'unifunc' => 'content_63c555c294e1c4_47396856',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_63c46e34da0f93_21485367 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c555c294e1c4_47396856 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="product-additional-info js-product-additional-info">
   <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayProductAdditionalInfo','product'=>$_smarty_tpl->tpl_vars['product']->value),$_smarty_tpl ) );?>
 
