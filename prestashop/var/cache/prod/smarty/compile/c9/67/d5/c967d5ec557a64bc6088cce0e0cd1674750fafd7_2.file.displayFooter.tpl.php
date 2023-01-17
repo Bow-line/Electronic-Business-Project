@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2023-01-17 13:36:45
+/* Smarty version 3.1.43, created on 2023-01-17 14:48:56
   from '/var/www/html/modules/amazonpay/views/templates/hook/displayFooter.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63c6965debe2f4_08854817',
+  'unifunc' => 'content_63c6a748deed57_73529627',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c967d5ec557a64bc6088cce0e0cd1674750fafd7' => 
     array (
       0 => '/var/www/html/modules/amazonpay/views/templates/hook/displayFooter.tpl',
-      1 => 1673957879,
+      1 => 1673960886,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./_partials/button.tpl' => 1,
   ),
 ),false)) {
-function content_63c6965debe2f4_08854817 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c6a748deed57_73529627 (Smarty_Internal_Template $_smarty_tpl) {
 if ((isset($_smarty_tpl->tpl_vars['banner_url']->value))) {?>
     <div class="amzpayments-footer-banner">
         <img src="<?php echo htmlspecialchars(call_user_func_array($_smarty_tpl->registered_plugins[ 'modifier' ][ 'escape' ][ 0 ], array( $_smarty_tpl->tpl_vars['banner_url']->value,'htmlall','UTF-8' )), ENT_QUOTES, 'UTF-8');?>
