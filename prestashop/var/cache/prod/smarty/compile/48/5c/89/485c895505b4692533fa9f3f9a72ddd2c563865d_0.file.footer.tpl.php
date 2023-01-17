@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2023-01-17 13:34:51
+/* Smarty version 3.1.43, created on 2023-01-17 14:57:35
   from '/var/www/html/admindoll/themes/default/template/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63c695eb00d7a1_76405281',
+  'unifunc' => 'content_63c6a94f7b51d8_04003365',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '485c895505b4692533fa9f3f9a72ddd2c563865d' => 
     array (
       0 => '/var/www/html/admindoll/themes/default/template/footer.tpl',
-      1 => 1673957878,
+      1 => 1673960885,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:error.tpl' => 1,
   ),
 ),false)) {
-function content_63c695eb00d7a1_76405281 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c6a94f7b51d8_04003365 (Smarty_Internal_Template $_smarty_tpl) {
 ?>         <?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['hook'][0], array( array('h'=>'displayAdminEndContent'),$_smarty_tpl ) );?>
 
 	</div>
