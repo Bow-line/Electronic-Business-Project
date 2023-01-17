@@ -18,10 +18,11 @@ services:
         
     be_180112_prestashop:
         container_name: be_180112_prestashop
-        restart: always
+        image: be_180112_prestashop
         build:
             context: .
             dockerfile: Dockerfile
+        restart: always
         environment:
             DB_SERVER: be_180112_db
             PS_INSTALL_AUTO: 0
@@ -31,26 +32,7 @@ services:
         ports:
             - 18011:80 
             - 18012:443
-        volumes:
-          - ./prestashop:/var/www/html
-          - ./prestashop/admindoll:/var/www/html/admindoll
-          - ./prestashop/modules:/var/www/html/modules
-          - ./prestashop/themes:/var/www/html/themes
-          - ./prestashop/override:/var/www/html/override
         networks:
             - prestashop
-
-    phpmyadmin:
-        image: phpmyadmin/phpmyadmin
-        container_name: phpmyadmin
-        environment:
-            PMA_HOST: be_180112_db
-        ports:
-            - 1235:80
-        networks:
-            - prestashop
-        depends_on:
-            - be_180112_db
-
 networks:
     prestashop:
