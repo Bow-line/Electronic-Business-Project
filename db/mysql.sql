@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: mysql
--- Czas generowania: 16 Sty 2023, 16:49
+-- Czas generowania: 17 Sty 2023, 12:42
 -- Wersja serwera: 8.0.31
 -- Wersja PHP: 8.0.19
 
@@ -5294,8 +5294,8 @@ INSERT INTO `ps_configuration` (`id_configuration`, `id_shop_group`, `id_shop`, 
 (231, NULL, NULL, 'HOMESLIDER_PAUSE', '7700', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (232, NULL, NULL, 'HOMESLIDER_LOOP', '1', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
 (233, NULL, NULL, 'PS_BASE_DISTANCE_UNIT', 'm', '0000-00-00 00:00:00', '0000-00-00 00:00:00'),
-(234, NULL, NULL, 'PS_SHOP_DOMAIN', 'localhost', '0000-00-00 00:00:00', '2022-12-11 21:19:53'),
-(235, NULL, NULL, 'PS_SHOP_DOMAIN_SSL', 'localhost', '0000-00-00 00:00:00', '2022-12-11 21:19:53'),
+(234, NULL, NULL, 'PS_SHOP_DOMAIN', 'localhost:18011', '0000-00-00 00:00:00', '2022-12-11 21:19:53'),
+(235, NULL, NULL, 'PS_SHOP_DOMAIN_SSL', 'localhost:18012', '0000-00-00 00:00:00', '2022-12-11 21:19:53'),
 (236, NULL, NULL, 'PS_SHOP_NAME', 'Dreamland', '0000-00-00 00:00:00', '2022-11-28 15:29:11'),
 (237, NULL, NULL, 'PS_SHOP_EMAIL', 'dreamland.biznes@op.pl', '0000-00-00 00:00:00', '2022-12-12 12:53:25'),
 (238, NULL, NULL, 'PS_MAIL_METHOD', '2', '0000-00-00 00:00:00', '2022-12-12 12:40:41'),
@@ -5863,7 +5863,8 @@ INSERT INTO `ps_connections` (`id_connections`, `id_shop_group`, `id_shop`, `id_
 (87, 1, 1, 70, 1, 2886860801, '2022-12-12 16:06:53', ''),
 (88, 1, 1, 71, 1, 2886860801, '2022-12-12 16:44:51', ''),
 (89, 1, 1, 72, 1, 2886860801, '2022-12-12 16:46:50', ''),
-(90, 1, 1, 73, 1, 2886860801, '2023-01-16 17:27:36', '');
+(90, 1, 1, 73, 1, 2886860801, '2023-01-16 17:27:36', ''),
+(91, 1, 1, 57, 1, 2887712769, '2023-01-17 13:40:48', '');
 
 -- --------------------------------------------------------
 
@@ -6623,7 +6624,10 @@ INSERT INTO `ps_connections_source` (`id_connections_source`, `id_connections`, 
 (721, 72, 'http://localhost:8080/index.php?controller=order', 'localhost:8080/index.php?controller=order-confirmation&id_cart=27&id_module=35&id_order=5&key=7e28a33aaf004420784a42e2f209ee61', '', '2022-12-11 18:09:03'),
 (722, 72, 'http://localhost:8080/index.php?controller=order-confirmation&id_cart=27&id_module=35&id_order=5&key=7e28a33aaf004420784a42e2f209ee61', 'localhost:8080/index.php?controller=my-account', '', '2022-12-11 18:09:08'),
 (723, 72, 'http://localhost:8080/index.php?controller=my-account', 'localhost:8080/index.php?controller=history', '', '2022-12-11 18:09:09'),
-(724, 15, 'http://localhost:8080/index.php?controller=order', 'localhost:8080/index.php', '', '2022-12-11 18:10:24');
+(724, 15, 'http://localhost:8080/index.php?controller=order', 'localhost:8080/index.php', '', '2022-12-11 18:10:24'),
+(725, 91, 'https://localhost:18012/index.php', 'localhost:18012/index.php?id_category=16&controller=category', '', '2023-01-17 13:41:07'),
+(726, 91, 'https://localhost:18012/index.php?id_category=16&controller=category', 'localhost:18012/index.php?id_category=3&controller=category', '', '2023-01-17 13:41:11'),
+(727, 91, 'https://localhost:18012/index.php?id_category=3&controller=category', 'localhost:18012/index.php', '', '2023-01-17 13:41:13');
 
 -- --------------------------------------------------------
 
@@ -20726,7 +20730,7 @@ CREATE TABLE `ps_shop_url` (
 --
 
 INSERT INTO `ps_shop_url` (`id_shop_url`, `id_shop`, `domain`, `domain_ssl`, `physical_uri`, `virtual_uri`, `main`, `active`) VALUES
-(1, 1, 'localhost', 'localhost', '/', '', 1, 1);
+(1, 1, 'localhost:18011', 'localhost:18012', '/', '', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -26844,13 +26848,13 @@ ALTER TABLE `ps_configuration_kpi`
 -- AUTO_INCREMENT dla tabeli `ps_connections`
 --
 ALTER TABLE `ps_connections`
-  MODIFY `id_connections` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=91;
+  MODIFY `id_connections` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=92;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_connections_source`
 --
 ALTER TABLE `ps_connections_source`
-  MODIFY `id_connections_source` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=725;
+  MODIFY `id_connections_source` int UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=728;
 
 --
 -- AUTO_INCREMENT dla tabeli `ps_contact`

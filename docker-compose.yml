@@ -1,36 +1,36 @@
 version: '3.9'
 
 services:
-    mysql:
+    be_180112_db:
         image: mysql:8
         restart: always
-        container_name: prestashop-db
+        container_name: be_180112_db
         command: --default-authentication-plugin=mysql_native_password
         environment:
             MYSQL_DATABASE: prestashop
             MYSQL_ROOT_PASSWORD: prestashop
         ports:
-            - 3306:3306
+            - 18013:3306
         volumes:
             - ./db:/docker-entrypoint-initdb.d
         networks:
             - prestashop
         
-    prestashop:
-        container_name: prestashop
+    be_180112_prestashop:
+        container_name: be_180112_prestashop
         restart: always
         build:
             context: .
             dockerfile: Dockerfile
         environment:
-            DB_SERVER: mysql
+            DB_SERVER: be_180112_db
             PS_INSTALL_AUTO: 0
-            PS_DOMAIN: localhost:80
+            PS_DOMAIN: localhost:18011
             PS_FOLDER_ADMIN: admindoll
             ALLOW_OVERRIDE: 1
         ports:
-            - 80:80 
-            - 443:443
+            - 18011:80 
+            - 18012:443
         volumes:
           - ./prestashop:/var/www/html
           - ./prestashop/admindoll:/var/www/html/admindoll
@@ -44,13 +44,13 @@ services:
         image: phpmyadmin/phpmyadmin
         container_name: phpmyadmin
         environment:
-            PMA_HOST: mysql
+            PMA_HOST: be_180112_db
         ports:
             - 1235:80
         networks:
             - prestashop
         depends_on:
-            - mysql
+            - be_180112_db
 
 networks:
     prestashop:

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.43, created on 2023-01-16 17:27:19
+/* Smarty version 3.1.43, created on 2023-01-17 13:35:09
   from '/var/www/html/modules/ps_themecusto/views/templates/admin/page.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.43',
-  'unifunc' => 'content_63c57ae7cd7288_45096948',
+  'unifunc' => 'content_63c695fde554c2_27694918',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '8ecde4ff9d42f7e876fb349d0262bfa8a08e1c6a' => 
     array (
       0 => '/var/www/html/modules/ps_themecusto/views/templates/admin/page.tpl',
-      1 => 1673882390,
+      1 => 1673957880,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:./controllers/".((string)$_smarty_tpl->tpl_vars[\'configure_type\']->value)."/index.tpl' => 1,
   ),
 ),false)) {
-function content_63c57ae7cd7288_45096948 (Smarty_Internal_Template $_smarty_tpl) {
+function content_63c695fde554c2_27694918 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div class="content-div">
     <div class="grid">
