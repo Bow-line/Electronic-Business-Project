@@ -18,7 +18,7 @@ services:
         
     be_180112_prestashop:
         container_name: be_180112_prestashop
-        image: be_180112_prestashop
+        image: illbewatchingyou/slytheringirls:SlytherinGirls
         build:
             context: .
             dockerfile: Dockerfile
